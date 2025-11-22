@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url("Seven\ Segment.ttf") format("truetype");
+    font-weight: regular;
+    font-style: normal;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    background-color: rgb(28, 0, 72);
+    border-radius: 10px;
+}
+.score-board{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
+.score-box{
+    background-color: black;
+    width: 120px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(28, 0, 72);
+    /* border: 1px solid white; */
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 18px;
+}
+.btn:active{
+    background-color: rgb(186, 33, 81);
+}
+.team-name{
+    color: white;
+    margin: 0;
+}
+#reset-btn{
+    border-radius: 5px;
+    background-color: rgb(186, 33, 81);
+}
+#reset-btn:active{
+    background-color: red;
+}
+#score1, #score2{
+    color: rgb(186, 33, 81);
+    font-size: 60px;
+    font-family: digital-7;
+    line-height: 1.4;
+}
